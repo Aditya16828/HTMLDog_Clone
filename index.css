@@ -1,0 +1,200 @@
+.Website nav {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: gray;
+    margin: -8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Website nav .nav2{
+    display: flex;
+    margin-right: 10px;
+}
+
+.Website nav .nav1 :first-child{
+    font-size: 20px;
+}
+
+.Website nav a, .Website nav button{
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+    height: 100%;
+}
+
+.Website nav a{
+    padding: 4px;    
+}
+
+.Website nav button{
+    background-color: gray;
+    border: 0px;
+    font-size: 16px;
+    height: 100%;
+}
+
+.Website nav a:hover{
+    color: rgb(7, 154, 252);
+    background-color: white;
+    transition: 0.4s;
+}
+
+.Website nav button:hover{
+    color: rgb(7, 154, 252);
+    background-color: white;
+    transition: 0.4s;
+}
+
+.Website nav .nav2 .Menu .Menu-dropdown{
+    position: absolute;
+    display: none;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px black solid;
+    right: 0px;
+    font-weight: bold;
+}
+
+.Website nav .nav2 .Menu-dropdown a{
+    color: gray;
+    text-decoration: none;
+    display: block;
+}
+
+.Website nav .nav2 .Menu-dropdown a:hover {
+    color:rgb(7, 154, 252);
+}
+
+.Website nav .nav2 .Menu:hover .Menu-dropdown{
+    display: block;
+}
+
+.Website nav .nav2 .search div{
+    position: absolute;
+    display: none;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px black solid;
+    right: 0px;
+    top: 30px;
+}
+
+.Website nav .nav2 .search input{
+    color: gray;
+    text-decoration: none;
+    display: block;
+}
+
+.Website nav .nav2 .search:hover div{
+    display: block;
+}
+
+.Website>.Heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Lato, "Helvetica Neue", Helvetica, arial, sans-serif;
+    margin-top: 60px;
+}
+
+.Website>.Heading>.Head1{
+    font-weight: 700;
+    font-size: 96px;
+}
+
+.Website>.Heading>.Head2{
+    color: gray;
+    font-size: 96px;
+}
+
+.Website>.Heading>img{
+    height: 96px;
+}
+
+.Website>.After-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10px;
+    justify-content: center;
+    font-family: Lato, "Helvetica Neue", Helvetica, arial, sans-serif;
+    color: black;
+    font-size: 30px;
+    margin-top: 55px;
+    text-align: center;
+}
+
+.Website .Sub-Parts {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.Website .Sub-Parts div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Lato, "Helvetica Neue", Helvetica, arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 263px;
+}
+
+.Website .Sub-Parts div span{
+    justify-content: center;
+    text-align: center;
+}
+
+.Website .Sub-Parts div img{
+    width: 200px;
+    height: 108px;
+}
+
+.Sub-Parts div .Main-Link:visited, .Sub-Parts div .Main-Link {
+    font-size: 2em;
+    text-decoration-color: gray;
+    color: black;
+}
+
+.Sub-Parts div .Main-Link:hover {
+    text-decoration-color: rgb(7, 154, 252);
+    transition: 0.3s;
+}
+
+.Sub-Parts div .Other-Links:visited, .Sub-Parts div .Other-Links{
+    font-size: 16px;
+    text-decoration-color: rgb(168, 226, 245);
+    color: rgb(7, 154, 252);
+}
+
+.Sub-Parts div .Other-Links:hover {
+    text-decoration-color: rgb(7, 154, 252);
+    transition: 0.3s;
+}
+
+.Website .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Lato, "Helvetica Neue", Helvetica, arial, sans-serif;
+}
+
+.Website .footer a {
+    font-size: 20px;
+    text-decoration-color: rgb(168, 226, 245);
+    color: rgb(7, 154, 252);
+    margin-right: 20px;
+}
+
+.Website .footer a:hover {
+    text-decoration-color: rgb(7, 154, 252);
+    transition: 0.3s;
+}
+
+.Website .Sub-Parts .References p {
+    text-align: center;
+}
